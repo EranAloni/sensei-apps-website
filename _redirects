@@ -1,0 +1,6 @@
+# App Store redirects - update these URLs once your apps are listed
+/cardsensei/ios      https://apps.apple.com/app/cardsensei/id000000000  302
+/cardsensei/android  https://play.google.com/store/apps/details?id=com.senseiapps.cardsensei  302
+
+# Web app - serves the browser version (update path once web build is deployed)
+# /cardsensei/play    /cardsensei/web/index.html  200
