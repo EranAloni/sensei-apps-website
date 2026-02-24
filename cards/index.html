@@ -2,35 +2,188 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <title>CardSensei</title>
-    <!-- The `react-native-web` recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element -->
+
+    <!-- Primary SEO Meta Tags -->
+    <title>CardSensei — Play Bridge, Whist & War Online | Free Multiplayer Card Games</title>
+    <meta name="description" content="Play Bridge, Israeli Whist, and War card games online for free. No download, no signup. Challenge friends in real-time multiplayer or practice against AI bots. Learn card games with CardSensei." />
+    <meta name="keywords" content="play bridge online, free card games, multiplayer card games, Israeli Whist, War card game, play cards with friends, online bridge game, learn bridge, card game AI, no download card games, browser card games, trick-taking games" />
+    <meta name="author" content="CardSensei" />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large" />
+    <link rel="canonical" href="https://sensei-apps-website.pages.dev/cards" />
+    <meta name="theme-color" content="#0c0a16" />
+
+    <!-- Open Graph / Facebook / Discord / LinkedIn -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://sensei-apps-website.pages.dev/cards" />
+    <meta property="og:title" content="CardSensei — Free Online Bridge, Whist & War Card Games" />
+    <meta property="og:description" content="Play Bridge, Israeli Whist, and War online for free. No download needed. Challenge friends in multiplayer or practice against AI bots." />
+    <meta property="og:image" content="https://sensei-apps-website.pages.dev/cards/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="CardSensei" />
+    <meta property="og:locale" content="en_US" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CardSensei — Free Online Bridge, Whist & War Card Games" />
+    <meta name="twitter:description" content="Play Bridge, Israeli Whist, and War online for free. No download needed. Challenge friends or play against AI." />
+    <meta name="twitter:image" content="https://sensei-apps-website.pages.dev/cards/og-image.png" />
+
+    <!-- Additional SEO signals -->
+    <meta name="application-name" content="CardSensei" />
+    <meta name="apple-mobile-web-app-title" content="CardSensei" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- JSON-LD Structured Data: WebApplication + VideoGame -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["WebApplication", "VideoGame"],
+      "name": "CardSensei",
+      "url": "https://sensei-apps-website.pages.dev/cards",
+      "description": "Play Bridge, Israeli Whist, and War card games online for free. No download or signup needed. Challenge friends in real-time multiplayer or practice against AI bots.",
+      "applicationCategory": "GameApplication",
+      "genre": ["Card Game", "Multiplayer Game", "Strategy Game", "Trick-Taking Game"],
+      "gamePlatform": ["Web Browser", "iOS", "Android"],
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires a modern web browser with JavaScript enabled",
+      "numberOfPlayers": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 4
+      },
+      "playMode": ["SinglePlayer", "MultiPlayer"],
+      "gameItem": [
+        {
+          "@type": "Thing",
+          "name": "Bridge",
+          "description": "Classic contract Bridge card game with bidding and trick play"
+        },
+        {
+          "@type": "Thing",
+          "name": "Israeli Whist",
+          "description": "Strategic trick-taking card game popular in Israel with ascending and descending bid rounds"
+        },
+        {
+          "@type": "Thing",
+          "name": "War",
+          "description": "Quick and simple card game of chance, perfect for beginners"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+      },
+      "author": {
+        "@type": "Organization",
+        "name": "CardSensei"
+      },
+      "image": "https://sensei-apps-website.pages.dev/cards/og-image.png",
+      "inLanguage": "en"
+    }
+    </script>
+
+    <!-- JSON-LD Structured Data: FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What card games can I play on CardSensei?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "CardSensei offers three card games: Bridge (classic contract bridge with bidding and trick play), Israeli Whist (a strategic trick-taking game with ascending and descending bid rounds), and War (a quick card game of chance). All games can be played for free in your browser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is CardSensei free to play?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, CardSensei is completely free to play. There are no subscriptions, in-app purchases, or hidden fees. You can play all three card games — Bridge, Israeli Whist, and War — without paying anything."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do I need to download anything to play?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No download is required. CardSensei runs entirely in your web browser. Just open the website and start playing immediately. CardSensei is also available as a native app on iOS and Android for a smoother mobile experience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I play card games with friends online?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, CardSensei supports real-time online multiplayer. Create a room, share the room code with friends, and play Bridge or Israeli Whist together. You can also play against AI bots if you want to practice alone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I play Bridge online for free?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Visit CardSensei at sensei-apps-website.pages.dev/cards, select Bridge from the game menu, and choose to play with friends using a room code or practice against AI bots. No account or download needed. Bridge on CardSensei includes full bidding and trick-play mechanics."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is Israeli Whist and how do I play it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Israeli Whist is a popular trick-taking card game played in Israel. Players bid on how many tricks they will win across ascending and descending rounds. CardSensei lets you play Israeli Whist online for free with friends or against AI bots — no download needed."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I play against AI bots on CardSensei?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, CardSensei features AI bot opponents for all games. You can practice Bridge, Israeli Whist, or War against bots anytime. This is great for learning the games or honing your strategy without needing other players."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does CardSensei work on mobile?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, CardSensei works on all devices. You can play in any modern mobile browser, or download the native app from the iOS App Store or Google Play Store for the best mobile experience."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- JSON-LD Structured Data: Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "CardSensei",
+      "url": "https://sensei-apps-website.pages.dev/cards",
+      "logo": "https://sensei-apps-website.pages.dev/cards/og-image.png",
+      "description": "CardSensei is a free online platform for playing classic card games including Bridge, Israeli Whist, and War with friends or AI opponents."
+    }
+    </script>
+
+    <!-- The `react-native-web` recommended style reset -->
     <style id="expo-reset">
-      /* These styles make the body full-height */
-      html,
-      body {
-        height: 100%;
-      }
-      /* These styles disable body scrolling if you are using <ScrollView> */
-      body {
-        overflow: hidden;
-      }
-      /* These styles make the root element full-height */
-      #root {
-        display: flex;
-        height: 100%;
-        flex: 1;
-      }
+      html, body { height: 100%; }
+      body { overflow: hidden; }
+      #root { display: flex; height: 100%; flex: 1; }
     </style>
   <link rel="icon" href="/cards/favicon.ico" /></head>
 
   <body>
-    <!-- Use static rendering with Expo Router to support running without JavaScript. -->
-    <noscript>
-      You need to enable JavaScript to run this app.
-    </noscript>
-    <!-- The root element for your Expo app. -->
+    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   <script src="/cards/_expo/static/js/web/index-d1fb2deac6acdb6ac0298a5586c95271.js" defer></script>
 </body>

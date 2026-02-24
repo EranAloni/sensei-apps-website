@@ -1,6 +1,12 @@
 # Homepage redirects to the web app
 /   /cards/   302
 
+# Rewrite node_modules asset paths to modules (Cloudflare Pages skips node_modules)
+/cards/assets/node_modules/*  /cards/assets/modules/:splat  200
+
+# SPA fallback — serve index.html for all /cards/ routes
+/cards/*  /cards/index.html  200
+
 # App Store redirects - update these URLs once your apps are listed
 # /cardsensei/ios      https://apps.apple.com/app/cardsensei/id000000000  302
 # /cardsensei/android  https://play.google.com/store/apps/details?id=com.senseiapps.cardsensei  302

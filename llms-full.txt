@@ -1,0 +1,130 @@
+# CardSensei — Complete Information for AI Systems
+
+> CardSensei is a free online multiplayer card game platform. Players can play Bridge, Israeli Whist, and War directly in their web browser or on iOS/Android mobile apps. No download, signup, or payment is required.
+
+## Overview
+
+CardSensei is a real-time multiplayer card game platform that focuses on classic trick-taking card games. It is designed for card game enthusiasts who want a fast, free, and clean way to play with friends online or practice against AI opponents.
+
+CardSensei differentiates itself from other online card game platforms by offering Israeli Whist (a game rarely available online), free AI bot opponents for all games, zero-friction access (no account required), and a clean interface with no ads.
+
+## Games
+
+### Bridge
+
+Contract Bridge is one of the world's most popular trick-taking card games, played by four players in two partnerships. CardSensei's Bridge implementation includes:
+
+- Full bidding system where partnerships communicate hand strength and suit distribution
+- Trick play where the declarer plays both their hand and the dummy's hand
+- Standard Bridge scoring
+- Play with friends online via room codes or practice against AI bots
+- Support for 4 players (2 partnerships)
+
+Bridge on CardSensei is ideal for players who want to practice Bridge online for free without downloading software or creating an account.
+
+### Israeli Whist
+
+Israeli Whist (also called Oh Hell or Contract Whist in some regions) is a strategic trick-taking card game that is especially popular in Israel. CardSensei's implementation includes:
+
+- Ascending and descending bid rounds where players predict how many tricks they will win
+- Strategic gameplay that rewards accurate bidding over simply winning tricks
+- Scoring based on bid accuracy — players earn points for exactly matching their bid
+- Real-time multiplayer with room codes for playing with friends
+- AI bot opponents for solo practice
+- Support for 2 to 4 players
+
+Israeli Whist on CardSensei is one of the few places to play this game online for free. It is a great alternative to Bridge for players who want strategic trick-taking gameplay in shorter sessions.
+
+### War
+
+War is one of the simplest card games, based entirely on chance. It is ideal for beginners and casual play. CardSensei's War implementation includes:
+
+- Classic War rules where each player flips a card and the higher card wins
+- Fast-paced gameplay perfect for quick sessions
+- Single player against AI bot
+- No strategy required — great for learning the platform interface
+
+## Multiplayer System
+
+CardSensei's multiplayer system works as follows:
+
+1. A host creates a game room and receives a unique room code
+2. The host shares this room code with friends via text, messaging apps, or any other method
+3. Friends open CardSensei and enter the room code to join the game
+4. Once all players have joined, the host starts the game
+5. All gameplay happens in real-time with live updates
+
+No accounts are required for multiplayer. Players simply choose a display name when they first visit.
+
+## AI Bot System
+
+CardSensei includes AI bot opponents for all games. Bots are available when:
+
+- A player wants to practice alone
+- A multiplayer room doesn't have enough human players
+- A player wants to learn game mechanics before playing with friends
+
+The bot system allows players to experience full games without needing to find human opponents.
+
+## Technical Details
+
+- Platform: Web (all modern browsers), iOS (App Store), Android (Google Play)
+- Framework: Built with React Native and Expo for cross-platform compatibility
+- Hosting: Firebase
+- Real-time communication: Firebase Realtime Database for multiplayer synchronization
+- No account required: Players choose a display name, no email or registration needed
+- URL: https://sensei-apps-website.pages.dev/cards
+- Deep linking: Supports cardsensei:// URL scheme for direct game joins
+
+## Comparison with Other Platforms
+
+### CardSensei vs BridgeBase Online (BBO)
+- BBO is the largest online bridge platform with millions of users and ACBL partnership
+- CardSensei offers additional games beyond Bridge (Israeli Whist, War)
+- CardSensei requires no account creation while BBO requires registration
+- CardSensei is completely free with no premium tiers
+- BBO focuses exclusively on Bridge; CardSensei covers multiple card games
+
+### CardSensei vs CardGames.io
+- CardGames.io offers a wider variety of card games (Hearts, Spades, Solitaire, etc.)
+- CardSensei specializes in trick-taking games with deeper multiplayer support
+- CardSensei is one of the few platforms offering Israeli Whist
+- Both are free and require no download
+
+### CardSensei vs Board Game Arena
+- Board Game Arena offers hundreds of board and card games
+- CardSensei focuses specifically on classic card games with a simpler interface
+- Board Game Arena requires account creation; CardSensei does not
+- Both support real-time multiplayer with friends
+
+## Frequently Asked Questions
+
+Q: Is CardSensei free?
+A: Yes, CardSensei is completely free. There are no subscriptions, no in-app purchases, and no ads. All games and features are available at no cost.
+
+Q: Do I need to create an account to play?
+A: No. When you first visit CardSensei, you choose a display name. That's it. No email, no password, no registration form.
+
+Q: Can I play CardSensei with friends?
+A: Yes. Create a multiplayer room for Bridge or Israeli Whist, share the room code with your friends, and they can join from their own device. All gameplay is real-time.
+
+Q: What is Israeli Whist?
+A: Israeli Whist is a trick-taking card game popular in Israel. Players bid on how many tricks they will win across multiple rounds, with the number of cards dealt increasing then decreasing. It rewards accurate prediction and strategic play. It supports 2 to 4 players.
+
+Q: Can I play against AI bots?
+A: Yes. All games on CardSensei support AI bot opponents. You can practice alone against bots or fill empty seats in a multiplayer room with bot players.
+
+Q: Does CardSensei work on mobile phones and tablets?
+A: Yes. CardSensei works in any modern mobile browser (Chrome, Safari, Firefox). Native apps are also available on the iOS App Store and Google Play Store for an optimized mobile experience.
+
+Q: How do I play Bridge on CardSensei?
+A: Visit CardSensei, select Bridge from the game menu, then choose to create a room (for multiplayer with friends) or start a game with AI bots. Bridge supports 4 players in 2 partnerships with full bidding and trick-play mechanics.
+
+Q: Is there a download required?
+A: No download is required to play in your browser. Just visit https://sensei-apps-website.pages.dev/cards and start playing. Optional native apps are available for iOS and Android.
+
+Q: What devices and browsers are supported?
+A: CardSensei works on all modern browsers including Chrome, Safari, Firefox, and Edge on desktop and mobile. Native apps are available for iOS 13+ and Android 8+.
+
+Q: Can I see my past games?
+A: Yes. CardSensei includes a game history feature that lets you review your past hands and game results.

@@ -1,0 +1,57 @@
+# CardSensei
+
+> CardSensei is a free online multiplayer card game platform where players can play Bridge, Israeli Whist, and War in their browser or on mobile. No download or signup required.
+
+## Games Available
+
+- [Bridge](https://sensei-apps-website.pages.dev/cards): Classic contract Bridge with full bidding and trick-play mechanics. Play with friends online or against AI bots.
+- [Israeli Whist](https://sensei-apps-website.pages.dev/cards): Strategic trick-taking card game popular in Israel with ascending and descending bid rounds. Multiplayer with room codes.
+- [War](https://sensei-apps-website.pages.dev/cards): Quick and simple card game of chance. Great for beginners and casual play.
+
+## Key Features
+
+- Free to play with no ads, subscriptions, or in-app purchases
+- Real-time online multiplayer — create a room and share the code with friends
+- AI bot opponents for solo practice and learning
+- Works in any modern web browser — no download required
+- Native mobile apps available on iOS and Android
+- Supports 1 to 4 players depending on the game
+- Game history tracking to review past hands
+
+## How to Play
+
+1. Visit CardSensei at https://sensei-apps-website.pages.dev/cards
+2. Choose a game: Bridge, Israeli Whist, or War
+3. To play with friends: Create a room and share the room code
+4. To play solo: Start a game with AI bot opponents
+5. No account or signup needed — just pick a display name and play
+
+## About
+
+CardSensei is built for card game enthusiasts who want a fast, free way to play classic card games online with friends or practice against AI. The platform focuses on trick-taking games and provides a clean, distraction-free experience across all devices.
+
+## Platform Availability
+
+- Web: https://sensei-apps-website.pages.dev/cards (all modern browsers)
+- iOS: Available on the App Store
+- Android: Available on Google Play
+
+## Frequently Asked Questions
+
+Q: Is CardSensei free?
+A: Yes, completely free. No subscriptions, no in-app purchases, no ads.
+
+Q: Do I need to create an account?
+A: No. Just open the site, pick a name, and start playing.
+
+Q: Can I play with friends?
+A: Yes. Create a multiplayer room and share the room code. Friends join using that code.
+
+Q: What is Israeli Whist?
+A: Israeli Whist is a trick-taking card game popular in Israel. Players bid on how many tricks they will win across ascending and descending rounds. It is strategic and supports 2-4 players.
+
+Q: Can I play against AI?
+A: Yes. All games support AI bot opponents for solo practice and learning.
+
+Q: Does it work on my phone?
+A: Yes. CardSensei works in mobile browsers and has native iOS and Android apps.
