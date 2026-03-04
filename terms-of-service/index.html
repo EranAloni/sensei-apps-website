@@ -6,13 +6,12 @@
     <title>CardSensei - Terms of Service</title>
     <style>
         :root {
-            --primary: #1a1a2e;
-            --accent: #e94560;
-            --bg: #f8f9fa;
-            --card-bg: #ffffff;
-            --text: #2d3436;
-            --text-light: #636e72;
-            --border: #dfe6e9;
+            --bg: #0a0a0e;
+            --card-bg: rgba(255,255,255,0.07);
+            --text: #e0e0e0;
+            --text-light: #8a8a8e;
+            --accent: #d4af37;
+            --border: rgba(255,255,255,0.12);
         }
 
         * {
@@ -28,61 +27,93 @@
             line-height: 1.7;
         }
 
-        .header {
-            background: linear-gradient(135deg, var(--primary) 0%, #16213e 100%);
-            color: white;
-            padding: 60px 20px 50px;
+        .brand-header {
+            background: var(--bg);
+            padding: 16px 20px 40px;
             text-align: center;
+            max-width: 840px;
+            margin: 0 auto;
         }
 
-        .header h1 {
+        .brand-header .brand-link {
+            display: block;
+            text-align: left;
+            margin-bottom: 10px;
+        }
+
+        .brand-header h1 {
             font-size: 2.4em;
             font-weight: 700;
+            margin-top: 30px;
             margin-bottom: 10px;
             letter-spacing: -0.5px;
+            color: #fff;
         }
 
-        .header .subtitle {
+        .brand-header .subtitle {
             font-size: 1.1em;
-            opacity: 0.8;
+            opacity: 0.7;
             font-weight: 300;
+            color: #e0e0e0;
         }
 
-        .effective-date {
+        .brand-header .effective-date {
             display: inline-block;
             margin-top: 18px;
-            background: rgba(255,255,255,0.12);
+            background: rgba(212,175,55,0.15);
             padding: 6px 18px;
             border-radius: 20px;
             font-size: 0.9em;
+            color: var(--accent);
         }
+
+        .brand-link {
+            font-size: 22px;
+            font-weight: 700;
+            text-decoration: none;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        .brand-link:hover {
+            text-decoration: none;
+        }
+
+        .brand-card {
+            color: #fff;
+        }
+
+        .brand-sensei {
+            color: var(--accent);
+        }
+
 
         .container {
             max-width: 800px;
-            margin: -30px auto 60px;
+            margin: 0 auto 60px;
             padding: 0 20px;
         }
 
         .card {
             background: var(--card-bg);
             border-radius: 12px;
-            box-shadow: 0 2px 20px rgba(0,0,0,0.06);
+            box-shadow: 0 2px 20px rgba(0,0,0,0.3);
             padding: 50px;
             border: 1px solid var(--border);
         }
 
         .toc {
-            background: #f1f3f5;
+            background: rgba(255,255,255,0.05);
             border-radius: 10px;
             padding: 28px 35px;
             margin-bottom: 40px;
+            border: 1px solid var(--border);
         }
 
         .toc h2 {
             font-size: 1em;
             text-transform: uppercase;
             letter-spacing: 1.5px;
-            color: var(--text-light);
+            color: var(--accent);
             margin-bottom: 14px;
         }
 
@@ -92,10 +123,11 @@
 
         .toc li {
             margin-bottom: 6px;
+            color: var(--text-light);
         }
 
         .toc a {
-            color: var(--primary);
+            color: var(--text);
             text-decoration: none;
             font-weight: 500;
             transition: color 0.2s;
@@ -108,7 +140,7 @@
         section {
             margin-bottom: 36px;
             padding-bottom: 36px;
-            border-bottom: 1px solid #f1f3f5;
+            border-bottom: 1px solid var(--border);
         }
 
         section:last-of-type {
@@ -119,14 +151,14 @@
 
         h2 {
             font-size: 1.4em;
-            color: var(--primary);
+            color: #fff;
             margin-bottom: 16px;
             font-weight: 700;
         }
 
         h3 {
             font-size: 1.1em;
-            color: var(--primary);
+            color: var(--accent);
             margin-top: 20px;
             margin-bottom: 10px;
             font-weight: 600;
@@ -144,10 +176,11 @@
 
         li {
             margin-bottom: 8px;
+            color: var(--text);
         }
 
         .highlight-box {
-            background: #fff3f5;
+            background: rgba(212,175,55,0.1);
             border-left: 4px solid var(--accent);
             padding: 16px 20px;
             border-radius: 0 8px 8px 0;
@@ -155,13 +188,13 @@
         }
 
         .highlight-box.info {
-            background: #e8f4fd;
-            border-left-color: #2196F3;
+            background: rgba(120,176,255,0.1);
+            border-left-color: #78b0ff;
         }
 
         .highlight-box.warning {
-            background: #fff8e1;
-            border-left-color: #ff9800;
+            background: rgba(255,149,0,0.1);
+            border-left-color: #ff9500;
         }
 
         .highlight-box p {
@@ -180,6 +213,7 @@
 
         strong {
             font-weight: 600;
+            color: #fff;
         }
 
         .footer {
@@ -201,10 +235,13 @@
 </head>
 <body>
 
-<div class="header">
+<div class="brand-header">
+    <a href="/cards" class="brand-link">
+        <span class="brand-card">Card </span><span class="brand-sensei">Sensei</span>
+    </a>
     <h1>Terms of Service</h1>
     <div class="subtitle">CardSensei &mdash; Card Games App</div>
-    <div class="effective-date">Effective Date: February 24, 2026</div>
+    <div class="effective-date">Effective Date: March 3, 2026</div>
 </div>
 
 <div class="container">
