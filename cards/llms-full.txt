@@ -1,18 +1,18 @@
 # CardSensei — Complete Information for AI Systems
 
-> CardSensei is a free online multiplayer card game platform. Players can play Bridge, Israeli Whist, and War directly in their web browser or on iOS/Android mobile apps. No download, signup, or payment is required.
+> CardSensei is a free online multiplayer card game platform. Players can play Bridge, Whist, and War directly in their web browser or on iOS/Android mobile apps. No download, signup, or payment is required.
 
 ## Overview
 
 CardSensei is a real-time multiplayer card game platform that focuses on classic trick-taking card games. It is designed for card game enthusiasts who want a fast, free, and clean way to play with friends online or practice against AI opponents.
 
-CardSensei differentiates itself from other online card game platforms by offering Israeli Whist (a game rarely available online), free AI bot opponents for all games, zero-friction access (no account required), and a clean interface with no ads.
+CardSensei differentiates itself from other online card game platforms by offering Whist (a game rarely available online), free AI bot opponents for all games, zero-friction access (no account required), and a clean interface with no ads.
 
 ## Games
 
 ### Bridge
 
-Contract Bridge is one of the world's most popular trick-taking card games, played by four players in two partnerships. CardSensei's Bridge implementation includes:
+Bridge is one of the world's most popular trick-taking card games, played by four players in two partnerships. CardSensei's Bridge implementation includes:
 
 - Full bidding system where partnerships communicate hand strength and suit distribution
 - Trick play where the declarer plays both their hand and the dummy's hand
@@ -22,9 +22,9 @@ Contract Bridge is one of the world's most popular trick-taking card games, play
 
 Bridge on CardSensei is ideal for players who want to practice Bridge online for free without downloading software or creating an account.
 
-### Israeli Whist
+### Whist
 
-Israeli Whist (also called Oh Hell or Contract Whist in some regions) is a strategic trick-taking card game that is especially popular in Israel. CardSensei's implementation includes:
+Whist (also called Oh Hell or Contract Whist in some regions) is a strategic trick-taking card game that is especially popular in Israel. CardSensei's implementation includes:
 
 - Ascending and descending bid rounds where players predict how many tricks they will win
 - Strategic gameplay that rewards accurate bidding over simply winning tricks
@@ -33,7 +33,7 @@ Israeli Whist (also called Oh Hell or Contract Whist in some regions) is a strat
 - AI bot opponents for solo practice
 - Support for 2 to 4 players
 
-Israeli Whist on CardSensei is one of the few places to play this game online for free. It is a great alternative to Bridge for players who want strategic trick-taking gameplay in shorter sessions.
+Whist on CardSensei is one of the few places to play this game online for free. It is a great alternative to Bridge for players who want strategic trick-taking gameplay in shorter sessions.
 
 ### War
 
@@ -80,7 +80,7 @@ The bot system allows players to experience full games without needing to find h
 
 ### CardSensei vs BridgeBase Online (BBO)
 - BBO is the largest online bridge platform with millions of users and ACBL partnership
-- CardSensei offers additional games beyond Bridge (Israeli Whist, War)
+- CardSensei offers additional games beyond Bridge (Whist, War)
 - CardSensei requires no account creation while BBO requires registration
 - CardSensei is completely free with no premium tiers
 - BBO focuses exclusively on Bridge; CardSensei covers multiple card games
@@ -88,7 +88,7 @@ The bot system allows players to experience full games without needing to find h
 ### CardSensei vs CardGames.io
 - CardGames.io offers a wider variety of card games (Hearts, Spades, Solitaire, etc.)
 - CardSensei specializes in trick-taking games with deeper multiplayer support
-- CardSensei is one of the few platforms offering Israeli Whist
+- CardSensei is one of the few platforms offering Whist
 - Both are free and require no download
 
 ### CardSensei vs Board Game Arena
@@ -106,10 +106,10 @@ Q: Do I need to create an account to play?
 A: No. When you first visit CardSensei, you choose a display name. That's it. No email, no password, no registration form.
 
 Q: Can I play CardSensei with friends?
-A: Yes. Create a multiplayer room for Bridge or Israeli Whist, share the room code with your friends, and they can join from their own device. All gameplay is real-time.
+A: Yes. Create a multiplayer room for Bridge or Whist, share the room code with your friends, and they can join from their own device. All gameplay is real-time.
 
-Q: What is Israeli Whist?
-A: Israeli Whist is a trick-taking card game popular in Israel. Players bid on how many tricks they will win across multiple rounds, with the number of cards dealt increasing then decreasing. It rewards accurate prediction and strategic play. It supports 2 to 4 players.
+Q: What is Whist?
+A: Whist is a trick-taking card game popular in Israel. Players bid on how many tricks they will win across multiple rounds, with the number of cards dealt increasing then decreasing. It rewards accurate prediction and strategic play. It supports 2 to 4 players.
 
 Q: Can I play against AI bots?
 A: Yes. All games on CardSensei support AI bot opponents. You can practice alone against bots or fill empty seats in a multiplayer room with bot players.

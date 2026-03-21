@@ -1,11 +1,11 @@
 # CardSensei
 
-> CardSensei is a free online multiplayer card game platform where players can play Bridge, Israeli Whist, and War in their browser or on mobile. No download or signup required.
+> CardSensei is a free online multiplayer card game platform where players can play Bridge, Whist, and War in their browser or on mobile. No download or signup required.
 
 ## Games Available
 
 - [Bridge](https://sensei-apps-website.pages.dev/cards): Classic contract Bridge with full bidding and trick-play mechanics. Play with friends online or against AI bots.
-- [Israeli Whist](https://sensei-apps-website.pages.dev/cards): Strategic trick-taking card game popular in Israel with ascending and descending bid rounds. Multiplayer with room codes.
+- [Whist](https://sensei-apps-website.pages.dev/cards): Strategic trick-taking card game popular in Israel with ascending and descending bid rounds. Multiplayer with room codes.
 - [War](https://sensei-apps-website.pages.dev/cards): Quick and simple card game of chance. Great for beginners and casual play.
 
 ## Key Features
@@ -21,7 +21,7 @@
 ## How to Play
 
 1. Visit CardSensei at https://sensei-apps-website.pages.dev/cards
-2. Choose a game: Bridge, Israeli Whist, or War
+2. Choose a game: Bridge, Whist, or War
 3. To play with friends: Create a room and share the room code
 4. To play solo: Start a game with AI bot opponents
 5. No account or signup needed — just pick a display name and play
@@ -47,8 +47,8 @@ A: No. Just open the site, pick a name, and start playing.
 Q: Can I play with friends?
 A: Yes. Create a multiplayer room and share the room code. Friends join using that code.
 
-Q: What is Israeli Whist?
-A: Israeli Whist is a trick-taking card game popular in Israel. Players bid on how many tricks they will win across ascending and descending rounds. It is strategic and supports 2-4 players.
+Q: What is Whist?
+A: Whist is a trick-taking card game popular in Israel. Players bid on how many tricks they will win across ascending and descending rounds. It is strategic and supports 2-4 players.
 
 Q: Can I play against AI?
 A: Yes. All games support AI bot opponents for solo practice and learning.
