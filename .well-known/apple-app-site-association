@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "H7D3H63HS4.com.eranaloni.cardsensei",
+        "paths": ["/cards/join/*"]
+      }
+    ]
+  }
+}
